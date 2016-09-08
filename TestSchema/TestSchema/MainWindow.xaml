@@ -1,0 +1,15 @@
+﻿<Window x:Class="TestSchema.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestSchema"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid x:Name="Prescription" ToolTip="Proper Name of Drug">
+        <CheckBox x:Name="Take_w_food" Content="Take_W/food" HorizontalAlignment="Left" Margin="320,221,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="DrugName" HorizontalAlignment="Left" Margin="100,53,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="211,130,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
